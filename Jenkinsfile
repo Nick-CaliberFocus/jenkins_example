@@ -65,7 +65,7 @@ pipeline {
                         allowEmptyResults: true
                     )
 
-                    archiveArtificats(
+                    archiveArtifacts(
                         artificats: 'reports/**/*',
                         allowEmptyArchive: true
                     )
