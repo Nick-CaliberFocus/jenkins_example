@@ -10,9 +10,9 @@ def test_welcome():
     response = client.post("/")
 
 
-    assert response.status.code == 200
+    assert response.status_code == 200
     assert response.json() == {
-        "message":"Arithmetic API is running"
+        "message":"Arthimetic API is running"
     }
 
 @pytest.mark.parametrize(
@@ -38,6 +38,6 @@ def test_calculate(num1, num2, operation, expected):
         }
     )
 
-    assert response.status.code == 200
+    assert response.status_code == 200
     assert response.json()["result"] == expected
 
