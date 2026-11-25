@@ -1,2 +1,4 @@
 /jenkins
 /_pycache_
+/tests/_pycache_
+/tests/.pytest_cache
