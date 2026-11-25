@@ -66,7 +66,7 @@ pipeline {
                     )
 
                     archiveArtifacts(
-                        artificats: 'reports/**/*',
+                        artifacts: 'reports/**/*',
                         allowEmptyArchive: true
                     )
                 }
