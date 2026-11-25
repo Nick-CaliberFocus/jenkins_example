@@ -21,5 +21,5 @@ async def perform_calculation():
             print("Status Code :", response.status)
             print("Response: ", result)
 
-
-asyncio.run(perform_calculation())
+if __name__ == '__main__':
+    asyncio.run(perform_calculation())
